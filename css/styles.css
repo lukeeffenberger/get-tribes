@@ -58,12 +58,21 @@
 
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid rgb(55, 58, 64);
+    background-color: rgba(29, 18, 83, 0.8);
+    /* border-bottom: 1px solid rgb(55, 58, 64); */
+}
+ .navbar-nav .nav-item .nav-link {
+
+    color: #C4C2FF;
+  
+  }
+
+  .navbar-dark .navbar-nav .nav-item:hover .nav-link {
+    color: white;
 }
 
 h1 {
-    color: white;
+    color: #473b7a;
     font-size: 60px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -78,7 +87,7 @@ h3 {
 }
 
 h4 {
-    color: rgba(255, 255, 255, 0.7);
+    color: #473b7a;
     line-height: 35px;
 }
 
@@ -87,7 +96,8 @@ h5 {
 }
 
 body {
-    background-color: rgb(30, 32, 36);
+    /* background-color: rgb(30, 32, 36); */
+    background-color: #C4C2FF;
 }
 
 p {
@@ -95,7 +105,7 @@ p {
 }
 
 .button-flat {
-    color: white;
+    color: #473b7a;
     border-radius: 6px;
     background: none;
     border: none;
@@ -115,8 +125,9 @@ p {
 }
 
 .button-elevated {
-    color: white;
-    background-color: #3F51B5;
+    color: #473b7a;
+    background-color: #C4C2FF;
+    
     border-radius: 6px;
     border: none;
     padding: 5px 10px;
@@ -130,12 +141,12 @@ p {
 }
 
 .button-elevated:hover {
-    background-color: #475bd0;
+    background-color: #473b7a;
     color: white;
 }
 
 .button-primary {
-    background-color: #3F51B5;
+    background-color: #473b7a;
     color: white;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
@@ -155,11 +166,17 @@ p {
 
 .masthead {
     /* background-image: linear-gradient(rgba(0,0,0,0) 50%, black); */
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);   
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);    */
+    /* background: linear-gradient(90deg, #C4C2FF 0%, #473b7a 100%);  */
+    /* background: #473b7a;     */
+    background: linear-gradient(90deg, #F6D7A7 0%, #B4CFB0 100%); 
+    
+ 
 }
 
 .demo-pic {
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
+    background: linear-gradient(90deg, #F6D7A7 0%, #B4CFB0 100%); 
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -215,7 +232,6 @@ p.feature-card-bodytext {
 
 .feature-image-row {
     border-radius: 20px;
-    background-color: rgb(30, 32, 36);
     border: 1px solid rgb(55, 58, 64);
 }
 
