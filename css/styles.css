@@ -203,14 +203,18 @@ p {
     background-color: rgb(39, 41, 45);
     border-radius: 10px;
     /* Uses theme's dividerColor */
-    border: 1px solid rgb(55, 58, 64);
+    
     height: 250px;
 }
 
-.feature-section {
+/* .feature-section {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color: #473b7a;
+} */
+
+.whitepaper-section {
+    background: linear-gradient(90deg, #F6D7A7 0%, #B4CFB0 100%); 
 }
 
 .white-paper-image {
@@ -266,22 +270,19 @@ p.feature-detail-bodytext {
     font-size: 20px;
 }
 
-.masthead-bottom {
-}
+
 
 footer {
-    background-color: rgb(39, 41, 45);
-    border-top: 1px solid rgb(55, 58, 64);
-    border-bottom: 1px solid rgb(55, 58, 64);
+    background-color: #C4C2FF;
+ 
 }
 
 .twitter-button {
-    opacity: 0.5;
     cursor: pointer;
+    color:blue;
 }
 
 .twitter-button:hover {
-    opacity: 0.8;
 }
 
 .store-download-badge {
