@@ -195,7 +195,7 @@ p {
 .demo-pic-image {
     /* box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.45), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.5);
-    border-radius: 10px;
+    border-radius: 38px;
     --animate-duration: 1.5s;
 }
 
