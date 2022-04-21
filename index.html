@@ -26,6 +26,22 @@
 
     <!-- Tally form -->
     <script async src="https://tally.so/widgets/embed.js"></script>
+
+    <script>
+        function before(){
+            document.getElementById('myImage')
+            .src="img/photo1.jpg";
+            document.getElementById('message')
+            .innerHTML="Hii! GeeksforGeeks people";
+        }
+         
+        function afterr(){
+            document.getElementById('myImage')
+            .src="img/photo2.jpg";
+            document.getElementById('message')
+            .innerHTML="Bye! GeeksforGeeks people";
+        }
+     </script>
   </head>
   <body>
 
@@ -179,8 +195,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3 container">
-                    <div class="feature-card text-start p-4 shadow" style="background-color: #B4CFB0">
+                <div class="col-md-6 col-xl-3 container" >
+                    <div class="feature-card text-start p-4 shadow" style="background-color: #B4CFB0"  onclick=before();>
                         <div class="col">
                             <div class="row">
                                 <div class="col-1 pb-3">
@@ -192,8 +208,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3 container">
-                    <div class="feature-card text-start p-4 shadow " style="background-color: #A7C7E7">
+                <div class="col-md-6 col-xl-3 container" >
+                    <div class="feature-card text-start p-4 shadow " style="background-color: #A7C7E7"onclick=afterr();>
                         <div class="col">
                             <div class="pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6e7ccc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
@@ -207,6 +223,21 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+           <div class="col-md-2"></div>
+           <div class="col-md-6">
+              <h1 id="message">
+                  Hii! GeeksforGeeks people
+              </h1>
+              <img  id="myImage"
+                    src="img/photo1.jpg"  >
+           </div>
+           <div class="col-md-3"></div>
+        </div>
+     </div>
+    
 
     <!-- In-Depth Features -->
     <div id="in-depth-feature-section" class="container-fluid py-5">
