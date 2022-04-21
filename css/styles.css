@@ -1,0 +1,251 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #7464a1;
+    --bs-pink: #d63384;
+    --bs-red: #a16468;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #e4c662;
+    --bs-green: #67c29c;
+    --bs-teal: #64a19d;
+    --bs-cyan: #1cabc4;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #64a19d;
+    --bs-secondary: #7464a1;
+    --bs-success: #67c29c;
+    --bs-info: #1cabc4;
+    --bs-warning: #e4c662;
+    --bs-danger: #a16468;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-primary-rgb: 100, 161, 157;
+    --bs-secondary-rgb: 116, 100, 161;
+    --bs-success-rgb: 103, 194, 156;
+    --bs-info-rgb: 28, 171, 196;
+    --bs-warning-rgb: 228, 198, 98;
+    --bs-danger-rgb: 161, 100, 104;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgb(55, 58, 64);
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h4 {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 35px;
+}
+
+h5 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+body {
+    background-color: rgb(30, 32, 36);
+}
+
+p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button-flat {
+    color: white;
+    border-radius: 6px;
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-flat:hover {
+    background-color: rgba(214, 214, 214, 0.12);
+    color: white;
+}
+
+.button-elevated {
+    color: white;
+    background-color: #3F51B5;
+    border-radius: 6px;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-elevated:hover {
+    background-color: #475bd0;
+    color: white;
+}
+
+.button-primary {
+    background-color: #3F51B5;
+    color: white;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button-primary:hover {
+    color: white;
+    box-shadow: 0 0px 20px 0 rgba(63, 81, 181, 0.4), 0 6px 20px 0 rgba(63, 81, 181, 0.2);
+    
+}
+
+.masthead {
+    /* background-image: linear-gradient(rgba(0,0,0,0) 50%, black); */
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);   
+}
+
+.demo-pic {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.demo-pic-image {
+    /* box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.45), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    --animate-duration: 1.5s;
+}
+
+.feature-card {
+    background-color: rgb(39, 41, 45);
+    border-radius: 10px;
+    /* Uses theme's dividerColor */
+    border: 1px solid rgb(55, 58, 64);
+    height: 200px;
+}
+
+h5.feature-card-title {
+    color: white;
+}
+
+p.feature-card-bodytext {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.textlabel {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.65);
+    padding: 4px 2px;
+    font-size: 10px;
+    width: 70px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 5px;
+    vertical-align: center;
+}
+
+.feature-image {
+    border-radius: 20px;
+}
+
+#feature-image-1 {
+    background: linear-gradient(45deg, #FC466B 0%, #3F5EFB 100%);   
+}
+
+#feature-image-2 {
+    background: linear-gradient(135deg, #FC466B 0%, #3F5EFB 100%);   
+    /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
+}
+
+.feature-image-row {
+    border-radius: 20px;
+    background-color: rgb(30, 32, 36);
+    border: 1px solid rgb(55, 58, 64);
+}
+
+h2.feature-detail-title {
+    color: white;
+}
+
+p.feature-detail-bodytext {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+
+.masthead-bottom {
+}
+
+footer {
+    background-color: rgb(39, 41, 45);
+    border-top: 1px solid rgb(55, 58, 64);
+    border-bottom: 1px solid rgb(55, 58, 64);
+}
+
+.twitter-button {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.twitter-button:hover {
+    opacity: 0.8;
+}
+
+.store-download-badge {
+    opacity: 0.4;
+}
