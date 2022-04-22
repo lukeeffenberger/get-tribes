@@ -8,7 +8,7 @@ Leep was developed and published by Luke Effenberger.
 
 ## Address
 
-Luke Effenberger
-Grellstraße 34
-10409 Berlin
+Luke Effenberger\
+Grellstraße 34\
+10409 Berlin\
 Germany
