@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Leep · playful & powerful daily task manager</title>
+    <title>Tribes · your personal social network </title>
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/icons/app/icon.png">
@@ -28,18 +28,44 @@
     <script async src="https://tally.so/widgets/embed.js"></script>
 
     <script>
-        function before(){
+        function feature1(){
             document.getElementById('myImage')
-            .src="img/photo1.jpg";
+            .src="assets/screenshot-account.png";
             document.getElementById('message')
-            .innerHTML="Hii! GeeksforGeeks people";
+            .innerHTML=`<br>In a classical social network you have an online profile to represent your online identity. 
+                This design is intuitive but it comes with unnatural consequences. 1. You exist at two points at the same time. 
+                2. The online you can be found and looked at by other people. 3. It encourages self-presentation.
+                 All of these are not desirable. <br><br>
+                 Thus Tribes has no online profiles. Other users only see your name and your picture. There is no search for users.
+                 The only way to connect is via a QR-Code that changes everytime you make a connection with someone.`;
         }
          
-        function afterr(){
+        function feature2(){
             document.getElementById('myImage')
-            .src="img/photo2.jpg";
+            .src="assets/screenshot-feed.png";
             document.getElementById('message')
-            .innerHTML="Bye! GeeksforGeeks people";
+            .innerHTML=`<br>Social media feeds are designed to keep you engaged as long as possible. Again an undesirable property.<br><br>
+                 Tribes feed is much more an inbox then it is a feed. You quickly see all active posts and conversations. And you can archive 
+                 and delete them very easily.`;
+        }
+
+        function feature3(){
+            document.getElementById('myImage')
+            .src="assets/screenshot-post.png";
+            document.getElementById('message')
+            .innerHTML=`<br>If a post or conversation was valuable you can archive it. These posts can be found in you archive, your little own 
+            library of valuable content.<br><br>
+                 Use the advanced search for posts, filtering for users or topics to find exactly what you need.`;
+        }
+
+        function feature4(){
+            document.getElementById('myImage')
+            .src="assets/screenshot-account.png";;
+            document.getElementById('message')
+            .innerHTML=`<br>Current social media structure allow two things. 1. Use e.g.Whatsapp to contact someone directly. or 2. Use Instragram 
+            to share something with everybody who follows you. What if you could only share something with the people who are actually interested. <br><br>
+                 Tribes is centered around channels of interest. Build your profiles of interest from more than 20 channels. You only get the messages assigned
+                 to topics you follow. Likewise if you write a post you can choose from then 20 channels to reach your friends that follow these channels. `;
         }
      </script>
   </head>
@@ -57,7 +83,7 @@
             <div class="collapse navbar-collapse col-md-auto justify-content-center" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <!-- <li class="nav-item me-4"><a class="nav-link" href="about.html">About</a></li> -->
-                    <li class="nav-item me-4"><a class="nav-link" href="#whitepaper-section">White Paper</a></li>
+                    <li class="nav-item me-4"><a class="nav-link" href="assets/whitepaper.png">White Paper</a></li>
                     <li class="nav-item me-4"><a class="nav-link" href="#feature-section">Features</a></li>
                    
                     <li class="nav-item me-4"><a class="nav-link" href="https://useleep.notion.site/Leep-Pricing-d925ffca67af416ca6a47d8d7dba0907" target="_blank" rel="noopener noreferrer">Pricing</a></li>
@@ -145,7 +171,7 @@
                 <div class="col-md-12 col-xl-12 container  ">
                     <div class="container">
                         <div class="col">
-                            <h2>„We are more connected than ever. <br>Why doesn't it feel that way?“</h2>
+                            <h2>We are more connected than ever. <br>Why doesn't it feel that way?</h2>
                            
                         </div>
                     </div>
@@ -154,7 +180,8 @@
                 
                         <div class="col h-50" >
                             <!-- <img src="assets/whitepaper.png" class="rounded-3 white-paper-image " alt="Main Landing Picture"> -->
-                            <h4>Read the white paper!</h4>
+                            
+                            <h4><a href="assets/whitepaper.png">Read the white paper!</a></h4>
                   
                     </div>
                 </div>
@@ -168,13 +195,13 @@
     <div id="feature-section" class="container-fluid py-5 text-center feature-section" >
         <div class="container">
             <div class="container pb-4">
-                <h2 class="dark-text"><br>„If Reddit and Whatsapp would have a child.“ <br> </h2>
+                <h2 class="dark-text"><br>„If Whatsapp and Reddit had a child.“ <br> </h2>
               
 
             </div>
             <div class="row gy-4 pt-4">
                 <div class="col-md-6 col-xl-3 container">
-                    <div class="feature-card text-start p-4 shadow " style="background-color: #F6D7A7">
+                    <div class="feature-card text-start p-4 shadow " style="background-color: #F6D7A7" onclick=feature1();>
                         <div class="col">
                             <div class="pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6e7ccc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
@@ -184,8 +211,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-xl-3 container" >
+                    <div class="feature-card text-start p-4 shadow " style="background-color: #A7C7E7" onclick=feature4();>
+                        <div class="col">
+                            <div class="pb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6e7ccc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                            </div>
+                            <h5 class="feature-card-title">Connect via Interests</h5>
+                            <p class="feature-card-bodytext">Build your profile of interest by choosing from 20 topics. You can assign a topic to a post to reach all your friends that are interested.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6 col-xl-3 container">
-                    <div class="feature-card text-start p-4 shadow" style="background-color: #ECA6A6">
+                    <div class="feature-card text-start p-4 shadow" style="background-color: #ECA6A6" onclick=feature2();>
                         <div class="col">
                             <div class="pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6e7ccc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
@@ -196,7 +234,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-3 container" >
-                    <div class="feature-card text-start p-4 shadow" style="background-color: #B4CFB0"  onclick=before();>
+                    <div class="feature-card text-start p-4 shadow" style="background-color: #B4CFB0"  onclick=feature3();>
                         <div class="col">
                             <div class="row">
                                 <div class="col-1 pb-3">
@@ -208,17 +246,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3 container" >
-                    <div class="feature-card text-start p-4 shadow " style="background-color: #A7C7E7"onclick=afterr();>
-                        <div class="col">
-                            <div class="pb-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6e7ccc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                            </div>
-                            <h5 class="feature-card-title">Contact the right people</h5>
-                            <p class="feature-card-bodytext">Build your profile of interest by choosing from 20 topics. You can assign a topic to a post to reach all your friends that are interested.</p>
-                        </div>
-                    </div>
-                </div>
+                
                 
             </div>
         </div>
@@ -232,14 +260,19 @@
                 <div class="container" style="max-width: 300px;">
                 <img  id="myImage"
                 class="img-fluid  feature-pic-image"
-                      src="assets/screenshot-feed.png"  >
+                      src="assets/screenshot-account.png"  >
                   </div>
              </div>
           
            <div class="col-md-1"></div>
            <div class="col-md-4">
             <h5 id="message" class="feature-card-bodytext">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                <br>In a classical social network you have an online profile to represent your online identity. 
+                This design is intuitive but it comes with unnatural consequences. 1. You exist at two points at the same time. 
+                2. The online you can be found and looked at by other people. 3. It encourages self-presentation.
+                 All of these are not desirable. <br><br>
+                 Thus Tribes has no online profiles. Other users only see your name and your picture. There is no search for users.
+                 The only way to connect is via a QR-Code that changes everytime you make a connection with someone.
             </h5>
            
            </div>
