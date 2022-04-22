@@ -4,7 +4,7 @@ Leep was developed and published by Luke Effenberger.
 
 ## Email
 
-[pascal@useleep.com](mailto://pascal@useleep.com)
+[hello@jointribes.app](mailto://hello@jointribes.app)
 
 ## Address
 
