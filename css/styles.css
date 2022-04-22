@@ -103,7 +103,7 @@ h4 {
 }
 
 h5 {
-    color: rgba(255, 255, 255, 0.5);
+    color: #473b7a;
 }
 
 body {
@@ -199,12 +199,19 @@ p {
     --animate-duration: 1.5s;
 }
 
+.feature-pic-image {
+    /* box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.45), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    
+    border-radius: 38px;
+ 
+}
+
 .feature-card {
     background-color: rgb(39, 41, 45);
     border-radius: 10px;
     /* Uses theme's dividerColor */
     
-    height: 250px;
+    height: 220px;
 }
 
 /* .feature-section {
