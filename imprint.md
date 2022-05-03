@@ -1,6 +1,6 @@
 # Tribes - Imprint
 
-Leep was developed and published by Luke Effenberger.
+Tribes was developed and published by Luke Effenberger.
 
 ## Email
 
