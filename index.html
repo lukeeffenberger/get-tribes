@@ -38,6 +38,11 @@
                  All of these are not desirable. <br><br>
                  Thus Tribes has no online profiles. Other users only see your name and your picture. There is no search for users.
                  The only way to connect is via a QR-Code that changes everytime you make a connection with someone.`;
+                 document.getElementById('featureCard1').style.borderColor="#6d5eb2";
+                 document.getElementById('featureCard2').style.borderColor="#A7C7E7";
+                 document.getElementById('featureCard3').style.borderColor="#B4CFB0";
+                 document.getElementById('featureCard4').style.borderColor="#ECA6A6";
+              
         }
          
         function feature2(){
@@ -47,6 +52,11 @@
             .innerHTML=`<br>Social media feeds are designed to keep you engaged as long as possible. Again an undesirable property.<br><br>
                  Tribes feed is much more an inbox then it is a feed. You quickly see all active posts and conversations. And you can archive 
                  and delete them very easily.`;
+                 document.getElementById('featureCard1').style.borderColor="#F6D7A7";
+                 document.getElementById('featureCard2').style.borderColor="#6d5eb2";
+                 document.getElementById('featureCard3').style.borderColor="#B4CFB0";
+                 document.getElementById('featureCard4').style.borderColor="#ECA6A6";
+            
         }
 
         function feature3(){
@@ -56,6 +66,11 @@
             .innerHTML=`<br>If a post or conversation was valuable you can archive it. These posts can be found in you archive, your little own 
             library of valuable content.<br><br>
                  Use the advanced search for posts, filtering for users or topics to find exactly what you need.`;
+                 document.getElementById('featureCard1').style.borderColor="#F6D7A7";
+                 document.getElementById('featureCard2').style.borderColor="#A7C7E7";
+                 document.getElementById('featureCard3').style.borderColor="#6d5eb2";
+                 document.getElementById('featureCard4').style.borderColor="#ECA6A6";
+ 
         }
 
         function feature4(){
@@ -66,7 +81,12 @@
             to share something with everybody who follows you. What if you could only share something with the people who are actually interested. <br><br>
                  Tribes is centered around channels of interest. Build your profiles of interest from more than 20 channels. You only get the messages assigned
                  to topics you follow. Likewise if you write a post you can choose from then 20 channels to reach your friends that follow these channels. `;
-        }
+                 document.getElementById('featureCard1').style.borderColor="#F6D7A7";
+                 document.getElementById('featureCard2').style.borderColor="#A7C7E7";
+                 document.getElementById('featureCard3').style.borderColor="#B4CFB0";
+                 document.getElementById('featureCard4').style.borderColor="#6d5eb2";
+                }
+               
      </script>
   </head>
   <body>
@@ -200,14 +220,14 @@
     <!-- Feature Highlights -->
     <div id="feature-section" class="container-fluid py-5 text-center feature-section" >
         <div class="container">
-            <div class="container pb-4">
+            <!-- <div class="container pb-4">
                 <h2 class="dark-text"><br>„If Whatsapp and Reddit had a child.“ <br> </h2>
               
 
-            </div>
+            </div> -->
             <div class="row gy-4 pt-4">
                 <div class="col-md-6 col-xl-3 container">
-                    <div class="feature-card text-start p-4 shadow " style="background-color: #F6D7A7" onclick=feature1();>
+                    <div id="featureCard1" class="feature-card text-start p-4 shadow " style="background-color: #F6D7A7; border-color: #6d5eb2; border-width: 2px;  border-style:solid;" onclick=feature1();>
                         <div class="col">
                             <div class="pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#473b7a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
@@ -218,7 +238,18 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-3 container" >
-                    <div class="feature-card text-start p-4 shadow " style="background-color: #A7C7E7" onclick=feature4();>
+                    <div id="featureCard2" class="feature-card text-start p-4 shadow " style="background-color: #A7C7E7; border-color: #A7C7E7; border-width: 2px;  border-style:solid;" onclick=feature2();>
+                        <div class="col">
+                            <div class="pb-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#473b7a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-inbox"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path></svg>                            </div>
+                            
+                            <h5 class="feature-card-title">Finite Inbox</h5>
+                            <p class="feature-card-bodytext">Tribes is not designed to trap you in an infinite feed. Only active posts and messages are presented in your inbox.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 container">
+                    <div id="featureCard4" class="feature-card text-start p-4 shadow" style="background-color: #ECA6A6; border-color: #ECA6A6; border-width: 2px;  border-style:solid;" onclick=feature4();>
                         <div class="col">
                             <div class="pb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#473b7a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
@@ -228,18 +259,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-3 container">
-                    <div class="feature-card text-start p-4 shadow" style="background-color: #ECA6A6" onclick=feature2();>
-                        <div class="col">
-                            <div class="pb-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#473b7a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-inbox"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path></svg>                            </div>
-                            <h5 class="feature-card-title">Finite Inbox</h5>
-                            <p class="feature-card-bodytext">Tribes is not designed to trap you in an infinite feed. Only active posts and messages are presented in your inbox.</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-md-6 col-xl-3 container" >
-                    <div class="feature-card text-start p-4 shadow" style="background-color: #B4CFB0"  onclick=feature3();>
+                    <div id="featureCard3" class="feature-card text-start p-4 shadow" style="background-color: #B4CFB0; border-color: #B4CFB0; border-width: 2px;  border-style:solid;"  onclick=feature3();>
                         <div class="col">
                             <div class="row">
                                 <div class="col-1 pb-3">
@@ -261,7 +282,7 @@
             <div class="col-md-2"></div>
             <div class="col-md-3">
              
-                <div class="container" style="max-width: 300px;">
+                <div class="container" style="max-width: 270px;">
                 <img  id="myImage"
                 class="img-fluid  feature-pic-image"
                       src="assets/screenshot-account.png"  >
