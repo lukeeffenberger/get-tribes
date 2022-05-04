@@ -42,6 +42,7 @@
                  document.getElementById('featureCard2').style.borderColor="#A7C7E7";
                  document.getElementById('featureCard3').style.borderColor="#B4CFB0";
                  document.getElementById('featureCard4').style.borderColor="#ECA6A6";
+                 document.getElementById('titleFeatureText').innerHTML=`Personal Network`;
               
         }
          
@@ -59,6 +60,7 @@
                  document.getElementById('featureCard2').style.borderColor="#6d5eb2";
                  document.getElementById('featureCard3').style.borderColor="#B4CFB0";
                  document.getElementById('featureCard4').style.borderColor="#ECA6A6";
+                 document.getElementById('titleFeatureText').innerHTML=`Finite Inbox`;
             
         }
 
@@ -73,6 +75,7 @@
                  document.getElementById('featureCard2').style.borderColor="#A7C7E7";
                  document.getElementById('featureCard3').style.borderColor="#6d5eb2";
                  document.getElementById('featureCard4').style.borderColor="#ECA6A6";
+                 document.getElementById('titleFeatureText').innerHTML=`Explore your Archive`;
  
         }
 
@@ -92,6 +95,7 @@
                  document.getElementById('featureCard2').style.borderColor="#A7C7E7";
                  document.getElementById('featureCard3').style.borderColor="#B4CFB0";
                  document.getElementById('featureCard4').style.borderColor="#6d5eb2";
+                 document.getElementById('titleFeatureText').innerHTML=`Connect via Interests`;
                 }
                
      </script>
@@ -227,11 +231,12 @@
     <!-- Feature Highlights -->
     <div id="feature-section" class="container-fluid py-5 text-center feature-section" >
         <div class="container">
-            <!-- <div class="container pb-4">
-                <h2 class="dark-text"><br>„If Whatsapp and Reddit had a child.“ <br> </h2>
+            <div class="container pb-4 d-md-none pt-4">
+                <h4 class="dark-text"><br>Click on the icons to learn more! <br> </h4>
+            
               
 
-            </div> -->
+            </div>
             <div class="row gy-4 pt-4">
                 <div class="col-3 col-sm-3 col-md-6 col-xl-3 container">
                     <div id="featureCard1" class="feature-card text-start p-4 shadow " style="background-color: #F6D7A7; border-color: #6d5eb2; border-width:1px;  border-style:solid;" onclick=feature1();>
@@ -298,7 +303,7 @@
           
            <div class="col-lg-1 col-md-3"></div>
            <div class="col-md-5 col-lg-4 ">
-            <h4 class="feature-card-title d-md-none pt-4">Explore your Archive</h4>
+            <h4 id="titleFeatureText" class="feature-card-title d-md-none pt-4">Personal Network</h4>
             <h5 id="message" class="feature-card-bodytext">
                 <br>Most social networks have more or less public online profiles. Profiles are used to present yourself and find others to follow. 
                 This design is intuitive but it encourages the network to be rather public than personal. Presenting yourself to possibly millions of others makes you create
